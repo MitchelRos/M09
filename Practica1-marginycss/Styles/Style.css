@@ -1,0 +1,133 @@
+/* --------------------------------------- */
+/* -               GENERAL               - */
+/* --------------------------------------- */
+
+*{
+    font-family: sans-serif;
+}
+p{
+    font-family: Courier, monospace;
+    font-size: small;
+    border: solid green 0.5px;
+}
+html{
+    position:relative; 
+    min-height: 100%;
+}
+body{
+    background-image: url("../IMG/duk-BG.jpg");
+    margin: 0px auto;
+    background-repeat: repeat;
+    background-color: ghostwhite;
+    background-size: 250px;
+}
+h1, h2, h3, h4{
+    border: solid green 0.5px;
+}
+
+/* --------------------------------------- */
+/* -                 TOP                 - */
+/* --------------------------------------- */
+header{
+    text-align: center;
+    padding: 0px 10px;
+    border: solid green 1px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+header>h2{
+    margin-bottom: 0px;
+}
+
+/* --------------------------------------- */
+/* -                MIDDLE               - */
+/* --------------------------------------- */
+main{
+    background-color: rgba(255, 255, 255, 0.9);
+    border: solid blue 1px;
+    margin: 0px 10%;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 36px;
+}
+
+main>p{
+    text-align: justify;
+}
+
+/* STYLE DE NAV */
+main>nav{
+    border: solid green 1px;
+    width: 15%;
+
+}
+main>nav>div{
+    border: solid lightskyblue 1px;
+    margin: 10px 5px;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+main>nav>div:hover{
+    background-color: cornflowerblue;
+    font-weight: bolder;
+}
+
+/* STYLE GENARAL DE SELECION */
+main>section{
+    border: solid orange 1px;
+    width: 85%;
+}
+main>section h3{
+    font-weight:lighter;
+    font-size: larger;
+    color:cornflowerblue;
+    margin-bottom: 0px;
+}
+
+/* STYLE DE LOS ARTICULOS */
+main>section>section{
+    margin: 10px;
+}
+main>section>section>div{
+    border: solid cyan 1px;
+    text-align: center;
+    display: flex;
+    margin: 10px;
+}
+main>section>section>div>article{
+    border: solid magenta 1px;
+}
+main>section>section>div>article>a{
+    border: solid black 1px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+main>section>section>div>article>h4{
+    margin: 0px auto 5px auto;
+}
+main>section>section>div>article>img{
+    border: solid yellowgreen 1px;
+    margin: 10px auto;
+    width: 30%;
+    height: auto;
+}
+main>section>img{
+    width: 100%;
+
+}
+/* --------------------------------------- */
+/* -                BOTTOM               - */
+/* --------------------------------------- */
+footer{
+    background-color: #8080807f;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+footer>p{
+    background-color: gray;
+    font-weight: bold;
+    text-align: right;
+    margin: 9.2px 10px;
+}
